@@ -3,7 +3,141 @@
 @import url(./fonts.css);
 @import url(./reset.css);
 
-
-.bg-bl {
-	background-color: #000;
+body {
+	/* font: 400 17px/1.2 'Inter'; */
+	font-family: 'Inter';
 }
+
+.type-black {
+	background-color: #000;
+	color: #fff;
+}
+.type-black a {
+	color: #fff;
+}
+.type-white {
+	background-color: #fff;
+	color: #000;
+}
+.type-white a {
+	color: #000;
+}
+
+#header {
+	width: 1430px;
+	height: 136px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:106px;
+}
+#header .main-logo {
+	width: 300px;
+	height: 36px;
+}
+#header .main-logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 120%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(../images/common/logo-white.png) no-repeat center;
+}
+.type-white #header .main-logo a {
+	background-image: url(../images/common/logo-black.png) ;
+}
+.gnb {
+	display: flex;
+	gap:39px;
+	font-size: 20px;
+	font-weight: 300;
+}
+.gnb .link-walter {
+	background: url(../images/common/icon-walter-white.png) no-repeat left center;
+	padding-left: 26px;
+}
+.type-white .gnb .link-walter {
+	background-image: url(../images/common/icon-walter-black.png);
+}
+
+.lang-menu {
+	position: relative;
+	padding: 4px;
+}
+.lang-menu .selected-lang {
+	padding-right: 14px;
+	font-size: 20px;
+	font-weight: 300;
+	white-space: nowrap;
+	background: url(../images/common/ico-lang-menu-white.png) no-repeat right center;
+}
+.type-white .lang-menu .selected-lang {
+	background-image: url(../images/common/ico-lang-menu-black.png);
+}
+
+.lang-menu .link-list {
+	text-align: center;
+	border:1px solid #fff;
+	position: absolute;
+	left:0;
+	top: 100%;
+	background-color: #000;
+	opacity: 0;
+	height: 0;
+	transition: opacity 0.4s ease;
+}
+.type-white .lang-menu .link-list {
+	background-color: #fff;
+	border-color: #000;
+}
+.lang-menu .link-list li {
+	padding: 2px 6px;
+	font-weight: 300;
+	font-size: 20px;
+	white-space: nowrap;
+}
+.lang-menu:hover .link-list {
+	height: auto;
+	opacity: 1;
+}
+
+
+#footer {
+	width: 1430px;
+	margin:0 auto;
+	border:1px solid red;
+	display: flex;
+	gap:116px;
+	align-items: center;
+	padding: 65px 0 45px;
+	border-top:1px solid #fff;
+}
+#footer .logo-f {
+	width: 171px;
+	height: 138px;
+	overflow: hidden;
+	text-indent: 120%;
+	white-space: nowrap;
+	background: url(../images/common/logo-footer-white.png) no-repeat;
+}
+#footer .footer-info-wrap {
+	width: calc(100% - (171px + 116px));
+}
+#footer .footer-info-wrap .info-box {
+	border:1px solid red;
+	display: flex;
+	flex-wrap: wrap;
+}
+#footer .footer-info-wrap .info-box dl {
+	width: 33.33%;
+	margin-bottom: 33px;
+}
+#footer .footer-info-wrap .info-box dt {
+	margin-bottom: 6px;
+}
+#footer .footer-info-wrap .info-box dl {
+	white-space: nowrap;
+}
+#footer .
