@@ -8,6 +8,6 @@
 img {vertical-align: top;}
 a {text-decoration: none;}
 a:hover {text-decoration: underline;}
-button {background: none;border:0;}
+button {background: none;border:0;cursor: pointer;outline: 0;}
 ol, ul {list-style: none;}
 table {border-collapse: collapse;border-spacing: 0;}

@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+.main-swiper-wrap {
+	width: 1430px;
+	margin: 0 auto;
+}
+
+.main .inner {
+	width: 1430px;
+	margin: 0 auto;
+}
+.main section h2 {
+	font-size: 52px;
+	margin-bottom: 22px;
+	font-weight: bold;
+}
+
+.main .company-sec {
+	padding-top: 250px;
+	margin-bottom: 138px;
+	display: flex;
+}
+.main .company-sec .l-con {
+	width: 368px;
+	margin-right: 213px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main .company-sec .l-con p {
+	white-space: pre-line;
+	margin-bottom: 40px;
+}
+
+.main .business-sec {
+	margin-bottom: 135px;
+}
+.main .business-sec > p {
+	white-space: pre-line;
+	margin-bottom: 35px;
+}
+.main .business-sec .col-hover-wrap {
+	display: flex;
+	gap: 22px;
+}
+.main .business-sec .item-box {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 396px;
+	padding: 33px 36px;
+	transition: all 0.4s ease;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+.main .business-sec .item-box:nth-child(1) {
+	border:1px solid #0232B0;
+	background-color: #0232B0;
+	color: #fff;
+}
+.main .business-sec .item-box:nth-child(2) {
+	border:1px solid #fff;
+	background-color: #000;
+	color: #fff;
+}
+.main .business-sec .item-box:nth-child(3) {
+	border:1px solid #D9D9D9;
+	background-color: #D9D9D9;
+	color: #000;
+}
+.main .business-sec .item-box:nth-child(4) {
+	border:1px solid #fff;
+	background-color: #fff;
+	color: #222;
+}
+.main .business-sec .item-box .tit {
+	font-size: 28px;
+	font-weight: bold;
+}
+.main .business-sec .item-box .tit span {
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+}
+.main .business-sec .item-box ul {
+	display: none;
+}
+.main .business-sec .item-box ul li {
+	margin-bottom: 8px;
+	position: relative;
+	padding-left: 10px;
+	white-space: nowrap;
+}
+.main .business-sec .item-box ul li::before {
+	content: '';
+	position: absolute;
+	left:0;
+	top:8px;
+	width:3px;
+	height: 3px;
+	border-radius: 50%;
+	background-color: #fff;
+
+}
+.main .business-sec .item-box .icon {
+	margin-bottom: 198px;
+}
+.main .business-sec .item-box .arr {
+	position: absolute;
+	right: 36px;
+	bottom: 37px;
+}
+
+.main .business-sec .item-box.on {
+	width: 897px;
+}
+.main .business-sec .item-box.on .icon {
+	margin-bottom: 68px;
+}
+.main .business-sec .item-box.on:nth-child(2) .icon {
+	margin-bottom: 36px;
+}
+
+.main .business-sec .item-box.on .tit {
+	border-bottom:1px solid #fff;
+	padding-bottom: 10px;
+	margin-bottom: 31px;
+}
+.main .business-sec .item-box:nth-child(3) .tit,
+.main .business-sec .item-box:nth-child(4) .tit {
+		border-color: #000;
+}
+.main .business-sec .item-box.on ul {
+	display: block;
+}
+
+
+.main .business-sec .item-box.off {
+	width: 155px;
+}
+.main .business-sec .item-box.off .tit {
+	display: none;
+}
+.main .business-sec .item-box.off .arr {
+	right: 50%;
+	translate: 50%;
+}
+
+.main .business-sec .item-box:nth-child(3) ul li::before,
+.main .business-sec .item-box:nth-child(4) ul li::before {
+	background-color: #000;
+}
+
+
+
+
+.portfolio-sec {
+	margin-bottom: 138px;
+}
+.port-wrap .tab-box {
+	display: flex;
+}
+.port-wrap .tab-box button {
+	margin-left: -3px;
+}
+.port-wrap .tab-box button:first-child {
+	margin-left: 0;
+}
+.port-wrap .port-grid-wrap {
+	border:1px solid #fff;
+}
+.port-wrap .port-grid-wrap.type0 {
+	border-color: #fff;
+	background-color: #000;
+}
+.port-wrap .port-grid-wrap.type1 {
+	border-color: #0232B0;
+	background-color: #0232B0;
+}
+.port-wrap .port-grid-wrap.type2 {
+	border-color: #fff;
+	background-color: #000;
+}
+.port-wrap .port-grid-wrap.type3 {
+	border-color: #D9D9D9;
+	background-color: #D9D9D9;
+}
+.port-wrap .port-grid-wrap.type4 {
+	border-color: #fff;
+	background-color: #fff;
+}
+.port-wrap .port-grid {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 68px;
+	gap:16px;
+	margin-top: -1px;
+}
+.port-wrap .port-grid .grid-item {
+	width: 310px;
+	height: 230px;
+	margin-bottom: 16px;
+}
+.port-wrap .port-grid .grid-item.hide {
+	display: none;
+}
+
+.port-wrap .port-grid-wrap .link-box {
+	padding-bottom: 70px;
+	display: flex;
+	justify-content: center;
+}
+.port-wrap .port-grid-wrap .link-box .link-title {
+	display: block;
+	width: 309px;
+	height: 49px;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(../images/works/btn-link1.png) no-repeat;
+}
+.port-wrap .port-grid-wrap.type0 .link-box .link-title,
+.port-wrap .port-grid-wrap.type1 .link-box .link-title,
+.port-wrap .port-grid-wrap.type2 .link-box .link-title {
+	background: url(../images/works/btn-link1.png) no-repeat;
+}
+.port-wrap .port-grid-wrap.type3 .link-box .link-title,
+.port-wrap .port-grid-wrap.type4 .link-box .link-title {
+	background: url(../images/works/btn-link.png) no-repeat;
+}
+
+.customer-sec {
+	margin-bottom: 142px;
+}

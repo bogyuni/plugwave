@@ -1,11 +1,7 @@
 @charset "utf-8";
 
-@import url(./fonts.css);
-@import url(./reset.css);
-
 body {
-	/* font: 400 17px/1.2 'Inter'; */
-	font-family: 'Inter';
+	font: 400 17px/1.2 'Inter';
 }
 
 .type-black {
@@ -87,6 +83,7 @@ body {
 	opacity: 0;
 	height: 0;
 	transition: opacity 0.4s ease;
+	z-index: 8;
 }
 .type-white .lang-menu .link-list {
 	background-color: #fff;
@@ -107,7 +104,6 @@ body {
 #footer {
 	width: 1430px;
 	margin:0 auto;
-	border:1px solid red;
 	display: flex;
 	gap:116px;
 	align-items: center;
@@ -126,7 +122,6 @@ body {
 	width: calc(100% - (171px + 116px));
 }
 #footer .footer-info-wrap .info-box {
-	border:1px solid red;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -140,4 +135,48 @@ body {
 #footer .footer-info-wrap .info-box dl {
 	white-space: nowrap;
 }
-#footer .
+#footer .sns-box {
+	display: flex;
+	padding-left: 346px;
+	gap:46px;
+	margin-bottom: 30px;
+}
+#footer .sns-box a {
+	width: 47px;
+	height: 45px;
+	text-indent: 150%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#footer .sns-box a.inst {
+	background: url(../images/common/ico-sns-instagram-wt.png) no-repeat;
+}
+#footer .sns-box a.face {
+	background: url(../images/common/ico-sns-facebook-wt.png) no-repeat;
+}
+#footer .sns-box a.utb {
+	background: url(../images/common/ico-sns-youtube-wt.png) no-repeat;
+}
+#footer .copyright {
+	padding-left: 314px;
+}
+
+main {
+	min-height: 100vh;
+}
+
+@keyframes guideLineLoop {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 1852px;
+	}
+}
+.guide-line {
+	width: 100%;
+	height: 45px;
+	background: url(../images/common/guide-line.png) repeat;
+
+	animation: guideLineLoop 30s linear infinite reverse;
+}
