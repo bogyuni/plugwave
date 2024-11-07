@@ -1,0 +1,28 @@
+.works {
+	padding-top: 100px;
+}
+.works .company-sec {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:97px;
+	margin-bottom: 200px;
+}
+.works .company-sec h2 {
+	font-size: 52px;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+.works .company-sec p {
+	white-space: pre-line;
+	line-height: 1.6;
+}
+.works .inner {
+	width: 1430px;
+	margin: 0 auto;
+}
+.works h2 {
+	font-size: 52px;
+	margin-bottom: 22px;
+	font-weight: bold;
+}

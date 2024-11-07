@@ -8,11 +8,9 @@ window.addEventListener('load', ()=> {
 		},
 	});
 
-
-
 	const grid = document.querySelector('.port-grid');
 	const gridWrap = document.querySelector('.port-grid-wrap');
-	
+
 	const msnry = new Masonry(grid, {
 		itemSelector: '.grid-item',
 		columnWidth: 311,
@@ -57,6 +55,4 @@ window.addEventListener('load', ()=> {
 			e.target.classList.add('on');
 		});
 	});
-
-
 });

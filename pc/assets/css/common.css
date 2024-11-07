@@ -180,3 +180,27 @@ main {
 
 	animation: guideLineLoop 30s linear infinite reverse;
 }
+
+
+.mb50{
+	margin-bottom: 50px !important;
+}
+
+.mb80{
+	margin-bottom: 80px !important;
+}
+.mb90{
+	margin-bottom: 90px !important;
+}
+.mb100{
+	margin-bottom: 100px !important;
+}
+.mb110{
+	margin-bottom: 110px !important;
+}
+.mb120{
+	margin-bottom: 120px !important;
+}
+.mb130{
+	margin-bottom: 130px !important;
+}
