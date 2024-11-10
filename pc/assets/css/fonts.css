@@ -1,8 +1,10 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
 
-@font-face {
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+/* @font-face {
 	font-family: 'GMS';
 	font-weight: 300;
 	src: url('./fonts/GmarketSansTTFLight.woff2') format('woff2');
@@ -16,16 +18,23 @@
 	font-family: 'GMS';
 	font-weight: 700;
 	src: url('./fonts/GmarketSansTTFBold.woff2') format('woff2');
-}
+} */
 
 .Inter {
-  font-family: 'Inter';
+  font-family: "Inter", serif;;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-.GMS {
+/* .GMS {
 	font-family: 'GMS';
   font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+.noto-sans-kr {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }

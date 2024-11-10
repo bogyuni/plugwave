@@ -1,0 +1,94 @@
+.careers {
+	padding-top: 140px;
+	width: 1430px;
+	margin: 0 auto 130px;
+}
+.careers h2 {
+	font-size: 52px;
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+.careers .top-con {
+	margin-bottom: 224px;
+}
+.careers .top-con .cap1 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Inter';
+	margin-bottom: 34px;
+}
+.careers .top-con .cap2 {
+	font-size: 48px;
+	font-weight: bold;
+}
+.careers .top-con .cap2 span {
+	background-color: #0232B0;
+	display: inline-block;
+	padding:0 6px;
+	margin-left: -6px;
+}
+.careers .sec1 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 96px;
+}
+.careers .sec1 .l-con {
+	padding-top: 28px;
+}
+.careers .sec1 .l-con p {
+	white-space: pre-line;
+	margin-bottom: 40px;
+	line-height: 1.6;
+}
+.careers .sec1 .link-wrap {
+	padding-left: 14px;
+}
+.careers .sec1 .link-wrap a {
+	margin-left: -14px;
+}
+.careers .sec2 {
+	margin-bottom: 110px;
+}
+.careers .sec2 h2 {
+	margin-bottom: 95px;
+}
+.careers ol {
+	width: 1190px;
+	margin:0 auto;
+	padding-left: 165px;
+	background: url(../images/careers-img2.png) no-repeat;
+}
+.careers ol li {
+	padding: 44px 0;
+	border-bottom: 1px solid #fff;
+	display: flex;
+	line-height: 1.5;
+}
+.careers ol li:first-child {
+	padding-top: 16px;
+}
+.careers ol li:last-child {
+	border:0;
+}
+.careers ol li strong {
+	display: inline-block;
+	width: 400px;
+	font-size: 24px;
+}
+.careers .sec3 h2 {
+	margin-bottom: 132px;
+}
+.careers .sec3 ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.careers .sec3 ul li {
+	width: 20%;
+	text-align: center;
+	margin-bottom: 95px;
+}
+.careers .sec3 ul li div {
+	height: 64px;
+	margin-bottom: 32px;
+}
+

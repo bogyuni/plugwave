@@ -1,18 +1,32 @@
+const tabBtn = document.querySelectorAll('.btn-tab');
+const tabCon = document.querySelectorAll('.tab-con');
 
-
-
-const busiTabBtn = document.querySelectorAll('.business .btn-tab');
-const busiTabCon = document.querySelectorAll('.business .tab-con');
-
-busiTabBtn.forEach(btn => {
+tabBtn.forEach(btn => {
 	btn.addEventListener('click', (e) => {
-		console.log(e.currentTarget.value);
 		const num = parseInt(e.currentTarget.value) - 1;
-		for (let i = 0; i < busiTabCon.length; i++) {
-			busiTabCon[i].classList.remove('on');
+		for (let i = 0; i < tabCon.length; i++) {
+			tabBtn[i].classList.remove('on');
+			tabCon[i].classList.remove('on');
 		}
-		busiTabCon[num].classList.add('on');
+		tabCon[num].classList.add('on');
+		btn.classList.add('on');
 
 		AOS.refresh();
 	});
 });
+
+
+const newsContent = document.querySelector('.news');
+if (newsContent != null) {
+	const newsTitle = newsContent.querySelectorAll('.news-wrap .tit-wrap');
+	const newsLists = newsContent.querySelectorAll('.news-wrap .con-wrap');
+
+	newsTitle.forEach(tit => {
+		tit.addEventListener('click', () => {
+			for (let i = 0; i < newsTitle.length; i++) {
+				newsLists[i].classList.remove('on');
+			}
+			tit.nextElementSibling.classList.add('on');
+		});
+	});
+}

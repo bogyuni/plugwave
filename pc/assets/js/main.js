@@ -51,8 +51,8 @@ window.addEventListener('load', ()=> {
 				businessItem[i].classList.remove('on');
 				businessItem[i].classList.add('off');
 			}
-			e.target.classList.remove('off');
-			e.target.classList.add('on');
+			e.currentTarget.classList.remove('off');
+			e.currentTarget.classList.add('on');
 		});
 	});
 });

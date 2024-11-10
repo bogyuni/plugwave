@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-	font: 400 17px/1.2 'Inter';
+	font: 400 17px/1.2 'Noto Sans KR', 'Inter', sans-serif;
 }
 
 .type-black {
@@ -49,6 +49,9 @@ body {
 	gap:39px;
 	font-size: 20px;
 	font-weight: 300;
+}
+.gnb a {
+	font-family: 'Inter';
 }
 .gnb .link-walter {
 	background: url(../images/common/icon-walter-white.png) no-repeat left center;
@@ -110,6 +113,9 @@ body {
 	padding: 65px 0 45px;
 	border-top:1px solid #fff;
 }
+.type-white #footer {
+	border-color: #000;
+}
 #footer .logo-f {
 	width: 171px;
 	height: 138px;
@@ -117,6 +123,9 @@ body {
 	text-indent: 120%;
 	white-space: nowrap;
 	background: url(../images/common/logo-footer-white.png) no-repeat;
+}
+.type-white #footer .logo-f {
+	background: url(../images/common/logo-footer-blue.png) no-repeat;
 }
 #footer .footer-info-wrap {
 	width: calc(100% - (171px + 116px));
@@ -130,6 +139,7 @@ body {
 	margin-bottom: 33px;
 }
 #footer .footer-info-wrap .info-box dt {
+	font-weight: bold;
 	margin-bottom: 6px;
 }
 #footer .footer-info-wrap .info-box dl {
@@ -138,7 +148,7 @@ body {
 #footer .sns-box {
 	display: flex;
 	padding-left: 346px;
-	gap:46px;
+	gap:24px;
 	margin-bottom: 30px;
 }
 #footer .sns-box a {
@@ -157,6 +167,17 @@ body {
 #footer .sns-box a.utb {
 	background: url(../images/common/ico-sns-youtube-wt.png) no-repeat;
 }
+
+.type-white #footer .sns-box a.inst {
+	background: url(../images/common/ico-sns-instagram-bl.png) no-repeat;
+}
+.type-white #footer .sns-box a.face {
+	background: url(../images/common/ico-sns-facebook-bl.png) no-repeat;
+}
+.type-white #footer .sns-box a.utb {
+	background: url(../images/common/ico-sns-youtube-bl.png) no-repeat;
+}
+
 #footer .copyright {
 	padding-left: 314px;
 }
