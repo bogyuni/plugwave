@@ -1,0 +1,149 @@
+.news {
+	width: 1430px;
+	padding-top: 151px;
+	margin:0 auto 88px;
+}
+.news h2 {
+	font-size: 64px;
+	text-align: center;
+}
+.news .search-wrap {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 22px;
+}
+.news .search-wrap .inner {
+	border:1px solid #fff;
+	display: flex;
+	align-items: center;
+	height: 44px;
+	padding:4px 10px 4px 100px;
+	border-radius: 22px;
+}
+.news .search-wrap input[type=text] {
+	background: none;
+	padding: 4px 0;
+	border:0;
+	color: #fff;
+	outline: 0;
+}
+.news-tab-wrap {
+	margin-bottom: 90px;
+}
+.news-tab-wrap .tab-btn-wrap {
+	display: flex;
+	border-bottom:1px solid #fff;
+	gap: 200px;
+	margin-bottom: 20px;
+}
+.news-tab-wrap .btn-tab {
+	width: 200px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 8px;
+	margin-bottom: -2px;
+}
+.news-tab-wrap .btn-tab.on {
+	border-bottom: 3px solid #fff;
+}
+.news-tab-wrap .tab-con-wrap {
+	padding-bottom: 0;
+}
+.news-tab-wrap .news-wrap {
+	margin-bottom: 20px;
+}
+.news-tab-wrap .news-con .tit-wrap {
+	display: flex;
+	gap:73px;
+	justify-content: start;
+	padding: 24px 0;
+}
+.news-tab-wrap .news-con .tit-wrap .tag {
+	width: 106px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #0232B0;
+	text-align: center;
+}
+.news-tab-wrap .news-con .tit-wrap .tit {
+	max-width: calc(100% - 350px);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+.news-tab-wrap .news-con .tit-wrap .date {
+	margin-left: auto;
+}
+.news-tab-wrap .news-con .con-wrap {
+	max-height: 0;
+	transition: max-height 0.4s;
+	overflow: hidden;
+}
+.news-tab-wrap .news-con .con-wrap.on {
+	max-height: 100vh;
+	overflow: auto;
+}
+.news-tab-wrap .news-con .con-wrap .inner {
+	border:1px solid #fff;
+	border-radius: 10px;
+	padding: 34px 40px;
+}
+.news-tab-wrap .news-con .con-wrap .con-tit {
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	word-break: break-all;
+}
+.news-tab-wrap .news-con .con-wrap .con-txt {
+	white-space: pre-line;
+	line-height: 1.6;
+}
+.news .pagenation {
+	text-align: center;
+}
+
+.news .pagenation a {
+	display: inline-block;
+	font-size: 22px;
+	padding: 10px 10px;
+}
+.news .pagenation .num {
+	opacity: 0.6;
+}
+.news .pagenation a.on {
+	font-weight: bold;
+	opacity: 1;
+	border-bottom: 2px solid #fff;
+}
+.photo-news-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.photo-news-wrap .photo-con {
+	margin-bottom: 65px;
+	width: 453px;
+}
+.photo-news-wrap .photo-con .img-con {
+	margin-bottom: 36px;
+}
+.photo-news-wrap .photo-con .cap1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+.photo-news-wrap .photo-con .cap2 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
