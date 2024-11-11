@@ -83,7 +83,7 @@
 	overflow: hidden;
 }
 .news-tab-wrap .news-con .con-wrap.on {
-	max-height: 100vh;
+	max-height: 150vh;
 	overflow: auto;
 }
 .news-tab-wrap .news-con .con-wrap .inner {

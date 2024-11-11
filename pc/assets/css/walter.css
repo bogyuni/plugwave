@@ -40,6 +40,9 @@
 .walter .sec1 .r-con {
 	margin-right: 115px;
 }
+.walter .sec1 .r-con img {
+	width: 558px;
+}
 .walter .sec2 {
 	margin-bottom: 260px;
 }
@@ -87,15 +90,15 @@
 	position: absolute;
 }
 .walter .side-con.left {
-	left:0;
+	left:-3px;
 	top:484px;
-	animation: walter-move-l 5s ease-in-out 0s infinite  normal forwards;
-	/* animation-direction: normal;
-	animation-fill-mode: forwards; */
+	transform: rotate(90deg);
+	/* animation: walter-move-l 5s ease-in-out 0s infinite  normal forwards; */
 }
 .walter .side-con.right {
-	right:0;
+	right:-3px;
 	top:2682px;
-	animation: walter-move-r 4s ease-in-out 1.4s infinite  normal forwards;
+	transform: rotate(-90deg);
+	/* animation: walter-move-r 4s ease-in-out 1.4s infinite  normal forwards; */
 }
 
