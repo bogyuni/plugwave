@@ -23,10 +23,20 @@ if (newsContent != null) {
 
 	newsTitle.forEach(tit => {
 		tit.addEventListener('click', () => {
-			for (let i = 0; i < newsTitle.length; i++) {
-				newsLists[i].classList.remove('on');
+			const hasClass = tit.nextElementSibling.classList.contains('on');
+			if (!hasClass) {
+				for (let i = 0; i < newsTitle.length; i++) {
+					newsTitle[i].classList.remove('on');
+					newsLists[i].classList.remove('on');
+				}
+				tit.classList.add('on');
+				tit.nextElementSibling.classList.add('on');
+			} else {
+				tit.classList.remove('on');
+				tit.nextElementSibling.classList.remove('on');
 			}
-			tit.nextElementSibling.classList.add('on');
 		});
 	});
+
+
 }

@@ -100,7 +100,9 @@
 
 
 
-
+.tab-con2 .img-con {
+	text-align: center;
+}
 
 .tab-con2 .line-wrap {
 	overflow: hidden;

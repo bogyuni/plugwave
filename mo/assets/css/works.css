@@ -1,7 +1,7 @@
 .works .company-sec {
 	margin-bottom: 50px;
 }
-.works .company-sec h2 {
+.works h2 {
 	font-size: 23px;
 	font-weight: bold;
 	margin-bottom: 14px;
@@ -13,9 +13,4 @@
 }
 .works .inner {
 	padding: 50px 15px;
-}
-.works h2 {
-	font-size: 52px;
-	margin-bottom: 22px;
-	font-weight: bold;
 }

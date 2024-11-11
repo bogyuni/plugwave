@@ -34,6 +34,9 @@ img {
 	z-index: 11;
 	background-color: #00000090;
 }
+.type-white #header {
+	background-color: #ffffff90;
+}
 #header .main-logo {
 	width: 114px;
 	height: 14px;

@@ -1,47 +1,54 @@
 .walter {
-	margin-bottom: 160px;
+	margin-bottom: 50px;
 }
 .walter .kv {
-	max-width: 1920px;
-	margin:0 auto 110px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 }
+.walter .kv video {
+	width: 100%;
+}
 .walter .inner {
-	width: 1430px;
-	margin:0 auto;
 	position: relative;
 	overflow: hidden;
 }
+.walter section {
+	margin:0 15px;
+}
 .walter h2 {
-	font-size: 52px;
+	font-size: 23px;
 	font-weight: bold;
 	margin-bottom: 10px;
-	line-height: 68px;
+	line-height: 1.2;
 }
 .walter p {
-	line-height: 30px;
+	line-height: 21px;
 	white-space: pre-line;
 	margin-bottom: 24px;
 }
 .walter .sns-box {
 	display: flex;
-	gap:21px;
+	gap:10px;
+	margin-bottom: 30px;
+}
+.walter .sns-box img {
+	width: 23px;
 }
 .walter .sec1 {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 146px;
+	margin-bottom: 40px;
 }
 .walter .sec1 .l-con {
 	padding-top: 59px;
 }
 .walter .sec1 .r-con {
-	margin-right: 115px;
+	margin-right: 40px;
+	text-align: center;
 }
 .walter .sec2 {
-	margin-bottom: 260px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom:1px solid #000;
 }
 .walter .sec2 p {
 	margin-bottom: 60px;
@@ -53,6 +60,9 @@
 .walter .sec3 .img-con {
 	text-align: center;
 	margin-bottom: 80px;
+}
+.walter .sec3 .con2 img {
+	width: 80%;
 }
 
 @keyframes walter-move-l {
@@ -87,15 +97,20 @@
 	position: absolute;
 }
 .walter .side-con.left {
-	left:0;
-	top:484px;
-	animation: walter-move-l 5s ease-in-out 0s infinite  normal forwards;
-	/* animation-direction: normal;
-	animation-fill-mode: forwards; */
+	left:-3px;
+	top:594px;
+	/* animation: walter-move-l 5s ease-in-out 0s infinite  normal forwards; */
+	transform: rotate(90deg);
+}
+.walter .side-con.left img {
+	width: 141px;
 }
 .walter .side-con.right {
-	right:0;
-	top:2682px;
-	animation: walter-move-r 4s ease-in-out 1.4s infinite  normal forwards;
+	right:-3px;
+	top:2610px;
+	transform: rotate(-90deg);
+	/* animation: walter-move-r 4s ease-in-out 1.4s infinite  normal forwards; */
 }
-
+.walter .side-con.right img {
+	width: 150px;
+}

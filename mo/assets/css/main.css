@@ -3,6 +3,9 @@
 .main-swiper-wrap {
 	width: 100%;
 }
+.main-swiper-wrap .swiper-slide {
+	text-align: center;
+}
 
 .main .inner {
 	padding: 15px 15px 50px;
@@ -24,9 +27,12 @@
 }
 .main .company-sec .r-con {
 	text-align: center;
+	margin-bottom: 20px;
 }
 .main .company-sec .r-con > img {
-	margin-bottom: 20px;
+}
+.main .company-sec .link-con {
+	text-align: center;
 }
 .main .company-sec .link-terms {
 	width: 180px;
@@ -156,10 +162,10 @@
 }
 .port-wrap .tab-box button {
 	width: 113px;
-	margin-bottom: 4px;
+	margin-bottom: 6px;
 }
 .port-wrap .tab-box button:first-child {
-	margin-left: 12px;
+	/* margin-left: 12px; */
 }
 .port-wrap .port-grid-wrap {
 }
@@ -188,7 +194,6 @@
 	z-index: 2;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: start;
 	padding: 14px 0;
 }
 .port-wrap .port-grid .grid-item {
@@ -199,9 +204,13 @@
 	overflow: hidden;
 	border-radius: 8px;
 }
+.port-wrap .port-grid .grid-item img {
+	width: 100%;
+	object-fit: cover;
+}
 .grid-sizer {
 	width: calc(50% - 4px);
-	height: 140px;
+	height: 0;
 }
 .port-wrap .port-grid .grid-item .mask {
 	position: absolute;

@@ -30,120 +30,130 @@
 	<link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body class="type-black">
-<!-- <body class="type-white"> -->
+
 	<header id="header">
-			<h1 class="main-logo"><a href="/">PLUGWAVE logo</a></h1>
-			<nav class="gnb">
-				<a href="index.html">COMPANY</a>
-				<a href="business.html">BUSINESS</a>
-				<a href="works.html">WORKS</a>
-				<a href="contact.html">CONTACT</a>
-				<a href="careers.html">CAREERS</a>
-				<a href="news.html">NEWS</a>
-				<a href="walter.html" class="link-walter">WALTER</a>
-			</nav>
-			<div class="lang-menu">
-				<div class="selected-lang">한국어</div>
-				<ul class="link-list">
-					<li><a href="">ENG</a></li>
-					<li><a href="">中国人</a></li>
-					<li><a href="">日本語</a></li>
-				</ul>
+		<h1 class="main-logo"><a href="/">PLUGWAVE logo</a></h1>
+		<button class="btn-gnb-open">gnb open</button>
+		<div class="gnb-wrap">
+			<div class="top-con">
+				<button class="btn-lang-open">
+					<ul class="lang-list">
+						<li><a href="">한국어</a></li>
+						<li><a href="">ENG</a></li>
+						<li><a href="">中国人</a></li>
+						<li><a href="">日本語</a></li>
+					</ul>
+				</button>
+				<button class="btn-gnb-close">gnb close</button>
 			</div>
+			<div class="bot-con">
+				<nav class="gnb">
+					<a href="index.html">COMPANY</a>
+					<a href="business.html">BUSINESS</a>
+					<a href="works.html">WORKS</a>
+					<a href="contact.html">CONTACT</a>
+					<a href="careers.html">CAREERS</a>
+					<a href="news.html">NEWS</a>
+					<a href="walter.html" class="link-walter">WALTER</a>
+				</nav>
+			</div>
+		</div>
 	</header>
 
 	<main class="contact">
 		<section class="form-sec" data-aos="fade-up">
 			<div class="l-con">
-				<img src="./assets/images/contact-logo.png" alt="">
+				<img class="logo-img" src="./assets/images/contact-logo.png" alt="">
 				<h2>DOWNLOAD
 					COMPANY
 					INTRODUCTION</h2>
-				<p>PLUGWAVE가 제공하는 글로벌 아웃소싱 서비스에 관심이 있으신가요?
-					지금 바로 저희 회사소개서를 다운로드 받아 보시길 바랍니다.</p>
+				<p>PLUGWAVE가 제공하는 글로벌 아웃소싱 서비스에 관심이
+					있으신가요?
+
+					지금 바로 저희 회사소개서를 다운로드
+					받아 보시길 바랍니다.</p>
 			</div>
 			<div class="r-con">
 				<form action="">
 					<h3>Contact Us</h3>
 					<p>회사 정보 입력 시 
 						회사소개서를 다운로드 받으실 수 있습니다.</p>
-						<div class="row">
-							<div class="col">
-								<label for="">업체명*</label>
-								<input type="text">
-							</div>
+					<div class="row">
+						<div class="col">
+							<label for="">업체명*</label>
+							<input type="text">
 						</div>
-						<div class="row">
-							<div class="col">
-								<label for="">담당자명*</label>
-								<input type="text">
-							</div>
-							<div class="col">
-								<label for="">직책*</label>
-								<input type="text">
-							</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label for="">담당자명*</label>
+							<input type="text">
 						</div>
-						<div class="row">
-							<div class="col">
-								<label for="">연락처*</label>
-								<input type="text">
-							</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label for="">직책*</label>
+							<input type="text">
 						</div>
-						<div class="row">
-							<div class="col">
-								<label for="">이메일*</label>
-								<input type="text">
-							</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label for="">연락처*</label>
+							<input type="text">
 						</div>
-						<div class="row">
-							<div class="col">
-								<label>문의내용*</label>
-								<input type="text">
-							</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label for="">이메일*</label>
+							<input type="text">
 						</div>
-						<p class="desc">*필수입력 사항입니다.</p>
-						<div class="row checkbox-wrap">
-							<div class="col">
-								<label>현지화
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-								<label>
-									LQA
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-								<label>
-									콘텐츠 제작
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-								<label style="margin-right: 0;">
-									디자인
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-								<label style="margin-right: 0;">
-									기타
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-								<label>
-									개인정보처리방침 동의
-									<input type="checkbox">
-									<span class="checkmark"></span>
-								</label>
-								<a href="terms.html">내용보기</a>
-							</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<label>문의내용*</label>
+							<input type="text">
 						</div>
+					</div>
+					<p class="desc">*필수입력 사항입니다.</p>
+					<div class="row checkbox-wrap">
+						<label>현지화
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+						<label>
+							LQA
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+						<label>
+							콘텐츠 제작
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+						<label style="margin-right: 0;">
+							디자인
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="row checkbox-wrap">
+						<label>
+							기타
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+						<label>
+							개인정보처리방침 동의
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+						<a href="terms.html">내용보기</a>
+					</div>
 				</form>
 				<a href="#" class="down-link">다운로드</a>
 			</div>
 		</section>
 		<section class="map-sec" data-aos="fade-up">
-			<div class="l-con">
-				<img src="./assets/images/temp-map.png" alt="">
-			</div>
 			<div class="r-con">
 				<h3>찾아오시는 길</h3>
 				<h4>주소 및 연락처</h4>
@@ -154,46 +164,57 @@
 						<span style="color:#3AB449">서초역 1번 출구</span>에서 도보 7분</p>
 				</div>
 			</div>
+			<div class="l-con">
+				<img src="./assets/images/temp-map.png" alt="">
+			</div>
 		</section>
 
 	</main>
 
 	<footer id="footer">
-		<div class="logo-f">Plugwave We connect all</div>
-		<div class="footer-info-wrap">
-			<div class="info-box">
-				<dl>
-					<dt>상호명</dt>
-					<dd>(주)플러그웨이브</dd>
-				</dl>
-				<dl>
-					<dt>사업자등록번호</dt>
-					<dd>393-81-03290</dd>
-				</dl>
-				<dl>
-					<dt><a href="terms.html">개인정보처리방침</a></dt>
-					<dd></dd>
-				</dl>
-				<dl>
-					<dt>대표</dt>
-					<dd>원성연</dd>
-				</dl>
-				<dl>
-					<dt>이메일</dt>
-					<dd>contact@plugwave.io</dd>
-				</dl>
-				<dl>
-					<dt>주소</dt>
-					<dd>서울시 서초구 반포대로22길 39, 3층 301호</dd>
-				</dl>
-			</div>
-			<div class="sns-box">
-				<a href="javascript:alert('준비중 입니다.')" target="_blank" class="inst">instagram</a>
-				<a href="https://www.facebook.com/plugwave/" target="_blank" class="face">facebook</a>
-				<a href="https://www.youtube.com/@PLUGWAVE2023" target="_blank" class="utb">utube</a>
-			</div>
-			<p class="copyright">ⓒ Plugwave Corp. All rights reserved.</p>
+		<div class="sns-box">
+			<a href="https://www.instagram.com/plugwave.io/" target="_blank" class="inst">instagram</a>
+			<a href="https://www.facebook.com/plugwave/" target="_blank" class="face">facebook</a>
+			<a href="https://www.youtube.com/@PLUGWAVE2023" target="_blank" class="utb">utube</a>
 		</div>
+		<div class="footer-info-wrap">
+			<div class="logo-f">Plugwave We connect all</div>
+			<div class="info-box">
+				<div class="row">
+					<dl>
+						<dt>상호명</dt>
+						<dd>(주)플러그웨이브</dd>
+					</dl>
+					<span>|</span>
+					<dl>
+						<dt>사업자등록번호</dt>
+						<dd>393-81-03290</dd>
+					</dl>
+				</div>
+				<div class="row">
+					<dl>
+						<dt>대표</dt>
+						<dd>원성연</dd>
+					</dl>
+					<span>|</span>
+					<dl>
+						<dt>이메일</dt>
+						<dd>contact@plugwave.io</dd>
+					</dl>
+				</div>
+				<div class="row">
+					<dl>
+						<dt>주소</dt>
+						<dd>서울시 서초구 반포대로22길 39, 3층 301호</dd>
+					</dl>
+				</div>
+				<div class="row">
+					<a href="terms.html">개인정보처리방침</a>
+				</div>
+
+			</div>
+		</div>
+		<p class="copyright">ⓒ Plugwave Corp. All rights reserved.</p>
 	</footer>
 
 	<button class="btn-top"><img src="./assets/images/common/btn-top-wt.png" alt=""></button>
